@@ -24,5 +24,16 @@ namespace PresentationForm
             lblDescription.Text = swap.description;
             txtOutput.Text = swap.Reverse(txtInput.Text);
         }
+
+        private void btnClearData_Click(object sender, EventArgs e)
+        {
+            txtInput.Text = "";
+            txtOutput.Text = "";
+        }
+
+        private void btnChallengeTwo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
